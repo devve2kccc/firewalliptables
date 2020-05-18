@@ -17,3 +17,15 @@ git clone https://github.com/devve2kkcc/firewalliptables.git
  chmod +x *
  ./firewall
 ```
+
+## Save rules Permenant
+### Debian-based distro
+```bash
+sudo apt install iptables-persistent
+sudo /etc/init.d/netfilter-persistent save
+```
+### RHEL / CentOS distros
+```bash
+sudo chkconfig iptables on
+sudo service iptables save
+```
