@@ -1,4 +1,4 @@
-# firewalliptables
+# Firewall Iptables
 Simple iptables script to small office, company or home network
 This script have simple rules, but they are also very important!
 
