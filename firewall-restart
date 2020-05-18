@@ -1,0 +1,5 @@
+#!/bin/bash
+#Exec firewall-down (clean)
+/etc/firewalliptables/firewall-stop
+#Exec firewall (renew)
+/etc/firewalliptables/firewall
